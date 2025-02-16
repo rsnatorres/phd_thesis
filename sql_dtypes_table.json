@@ -1,0 +1,24 @@
+{
+    "hash": "types.VARCHAR(100)",
+    "date_time": "types.DateTime",
+    "username": "types.VARCHAR(50)",
+    "content": "types.VARCHAR(500)",
+    "display_name": "types.VARCHAR(100)",
+    "user_description": "types.VARCHAR(300)",
+    "verified": "types.Integer",
+    "follower_count": "types.Integer",
+    "friends_count": "types.Integer",
+    "statuses_count": "types.Integer",
+    "favourites_count": "types.Integer",
+    "listed_count": "types.Integer",
+    "media_count": "types.Integer",
+    "location": "types.VARCHAR(200)",
+    "reply_count": "types.Integer",
+    "retweet_count": "types.Integer",
+    "like_count": "types.Integer",
+    "quote_count": "types.Integer",
+    "lang": "types.VARCHAR(10)",
+    "retweeted_tweet": "types.Float",
+    "mining_string": "types.VARCHAR(50)"
+}
+                      

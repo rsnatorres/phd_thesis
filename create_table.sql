@@ -1,0 +1,23 @@
+CREATE TABLE %s (
+  `hash` varchar(100) PRIMARY KEY,
+  `date_time` datetime,
+  `username` varchar(50),
+  `content` varchar(500),
+  `display_name` varchar(100),
+  `user_description` varchar(300),
+  `verified` tinyint DEFAULT NULL,
+  `follower_count` int DEFAULT NULL,
+  `friends_count` int DEFAULT NULL,
+  `statuses_count` int DEFAULT NULL,
+  `favourites_count` int DEFAULT NULL,
+  `listed_count` int DEFAULT NULL,
+  `media_count` int DEFAULT NULL,
+  `location` varchar(200),
+  `reply_count` int DEFAULT NULL,
+  `retweet_count` int DEFAULT NULL,
+  `like_count` int DEFAULT NULL,
+  `quote_count` int DEFAULT NULL,
+  `lang` varchar(10),
+  `retweeted_tweet` double DEFAULT NULL,
+  `mining_string` varchar(50)
+);
